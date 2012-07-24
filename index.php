@@ -23,7 +23,6 @@
 <body>
     <h1>Authorize with YouTube</h1>
     <br/>
-    <?php  ?>
     <a href="<?php echo $data['redirect']; ?>">
         By Clicking This Link
     </a>
