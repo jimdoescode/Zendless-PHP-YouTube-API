@@ -4,9 +4,9 @@ This PHP library will let you make YouTube API requests with the dependency on Z
 
 If you have any questions please ask them on my blog: http://jimdoescode.blogspot.com
 
-Configuration
--------------
-Replace all of the TODO information with their appropriate values. Check the code comments for what to put in each. Make sure you change the callback URL in index.php to reflect your server setup. In this example the callback needs to point to the authorize.php file.
+Demo Configuration
+------------------
+In the demo files (index.php and authorize.php) replace all of the TODO information with their appropriate values. Check the code comments for what to put in each. Make sure you change the callback URL in index.php to reflect your server setup. In this example the callback needs to point to the authorize.php file.
 
 key = Your OAuth Consumer key
 secret = Your OAuth Consumer secret
