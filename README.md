@@ -19,7 +19,7 @@ Additional Information
 ----------------------
 It's worth mentioning that OAuth v1 access tokens don't expire so you only need your users to authenticate with your application once. Store the access token data in your database. Then retrieve it from the database next time you need to make a call. The example code is purely academic in regards to authenticating with YouTube.
 
-The example files are index.php and authenticate.php those files should not be included in your project they are just for reference and a working example.
+The example files are index.php and authorize.php those files should not be included in your project they are just for reference and a working example.
 
 License
 -------
