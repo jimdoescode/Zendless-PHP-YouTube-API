@@ -84,7 +84,7 @@ class youtube
      */
     public function __construct($apikey, $key = false, $secret = false, array $access_token = array(), $algorithm = OAUTH_ALGORITHMS::HMAC_SHA1)
     {
-        $this->_header['X-GData-Key'] = "key={$apikey}";
+    	if (!empty($apikey)) $this->_header['X-GData-Key'] = "key={$apikey}";
         if($key !== false && $secret !== false)
         {
             $this->_oauth['key'] = $key;
