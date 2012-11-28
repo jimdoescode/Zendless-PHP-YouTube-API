@@ -6,7 +6,7 @@
     $key = '*************'; //TODO: This should be the key given to you by google
     $secret = '**************'; //TODO: This should be the secret given to you by google
 
-    $auth = new google_oauth($key, $secret);
+    $auth = new \API\google_oauth($key, $secret);
 
     //TODO: Be sure to alter the callback url below to reflect your environment
     $data = $auth->get_request_token('http://localhost/youtube_api/authorize.php');

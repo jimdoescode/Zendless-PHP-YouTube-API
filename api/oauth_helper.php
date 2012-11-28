@@ -1,4 +1,4 @@
-<?php
+<?php namespace API;
 
 /*
 Copyright (C) 2012 by Jim Saunders
